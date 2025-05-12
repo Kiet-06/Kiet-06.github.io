@@ -4,24 +4,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 #container {
   width: 960px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #0066cc;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #333;
+  background-color: #003366;
 }
 
 nav ul {
@@ -44,15 +44,18 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #111;
+  background-color: #0059b3;
 }
 
 main {
   padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 footer {
-  background-color: #f2f2f2;
+  background-color: #cccccc;
   text-align: center;
   padding: 10px;
+  color: #000000;
 }
