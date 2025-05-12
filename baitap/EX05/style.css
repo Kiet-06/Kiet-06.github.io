@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f4f4f4;
+    background: #ba0e0e;
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -66,7 +66,7 @@ header a:hover {
 }
 
 footer {
-    background: #35424a;
+    background: #105b8a;
     color: #fff;
     text-align: center;
     padding: 20px 0;
