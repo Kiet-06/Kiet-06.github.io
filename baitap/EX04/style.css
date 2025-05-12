@@ -7,14 +7,14 @@ body {
 }
 
 header {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #0c0c0c10;
+  color: rgba(185, 69, 2, 0.596);
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #333;
+  background-color: ##0c0c0c10;
 }
 
 nav ul {
