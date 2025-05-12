@@ -1,18 +1,18 @@
 /* Toàn bộ trang */
 body {
-  background-color: #fdf9f4;
+  background-color: #f5f7fa; /* Nền dịu nhẹ */
   font-family: Arial, sans-serif;
-  color: black;
+  color: #2c3e50; /* Màu chữ xám đậm dễ đọc */
   margin: 0;
   padding: 0;
 }
 
 /* Phần header */
 header {
-  background-color: #2f3e46;
+  background-color: #3a4750; /* Màu xanh đậm nhẹ hơn */
   color: white;
   padding: 20px;
-  position: relative; /* Quan trọng để vị trí tuyệt đối của menu hoạt động */
+  position: relative;
 }
 
 header h1 {
@@ -22,8 +22,8 @@ header h1 {
 /* Menu điều hướng ở góc dưới bên phải header */
 nav {
   position: absolute;
-  bottom: 10px;  /* Đặt sát mép dưới header */
-  right: 20px;   /* Đặt sát mép phải */
+  bottom: 10px;
+  right: 20px;
 }
 
 nav ul {
@@ -31,7 +31,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 30px; /* Khoảng cách giữa các mục */
+  gap: 30px;
 }
 
 nav ul li {
@@ -49,18 +49,18 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-  background-color: #ff7f00;
+  background-color: #f39c12; /* Cam nhạt dễ nhìn hơn */
   color: white;
 }
 
 /* Phần nội dung chính */
 main {
   padding: 20px;
-  border-top: 3px solid red;
+  border-top: 3px solid #f39c12;
 }
 
 main h2 {
-  color: black;
+  color: #2c3e50;
 }
 
 /* Input form */
@@ -101,7 +101,7 @@ input[type="submit"] {
 
 /* Footer */
 footer {
-  background-color: #ff7f00;
+  background-color: #f39c12; /* Cam dịu hơn */
   padding: 20px;
   color: white;
   text-align: center;
@@ -123,7 +123,7 @@ footer a:hover {
 
 /* Footer dạng div */
 #footer-bar {
-  background-color: #ff7f00;
+  background-color: #f39c12;
   padding: 20px;
   color: white;
   text-align: center;
