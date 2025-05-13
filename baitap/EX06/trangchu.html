@@ -1,69 +1,99 @@
-<!DOCTYPE html>
-<html>
-  <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width">
-     <meta name="description" content="Thiet ke web chuyen nghiep">
-     <meta name="keywords" content="web design, professional web design, thiet ke web, thiet ke web chuyen nghiep">
-     <meta name="author" content="Anh Kiet">
-     <title>Anh Kiet Web Design | Trang chủ</title>
-     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Anh Kiet</span> Web Design</h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="trangchu.html">Trang chủ</a></li>
-            <li><a href="thongtin.html">Thông tin</a></li>
-            <li><a href="dichvu.html">Dịch vụ</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
 
-    <section id="showcase">
-      <div class="container">
-        <h1>Thiết kế website chuyên nghiệp.</h1>
-        <p>Chúng tôi cung cấp các dịch vụ thiết kết website chuyên nghiệp, giá cả hợp lý theo yêu cầu khách hàng.</p>
-      </div>
-    </section>
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
 
-    <section id="newsletter">
-      <div class="container">
-        <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
-        <form>
-          <input type="email" placeholder="Nhập Email...">
-          <button type="submit" class="button_1">Đăng ký</button>
-        </form>
-      </div>
-    </section>
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="img/logo_html.png">
-          <h3>Ngôn ngữ HTML5</h3>
-          <p>HTML5 là một ngôn ngữ cấu trúc và trình bày nội dung cho World Wide Web và sẽ là công nghệ cốt lõi của Internet trong tương lai không xa, được đề xuất đầu tiên bởi Opera Software.</p>
-        </div>
-        <div class="box">
-          <img src="img/logo_css.png">
-          <h3>Ngôn ngữ CSS3</h3>
-          <p>CSS3 là viết tắt của Cascading Style Sheet level 3, là phiên bản nâng cao của CSS. Được sử dụng để cấu trúc, tạo kiểu và định dạng các trang web. Một số tính năng mới đã được thêm vào CSS3 và được hỗ trợ bởi tất cả các trình duyệt web hiện đại.</p>
-        </div>
-        <div class="box">
-          <img src="img/logo_brush.jpg">
-          <h3>Thiết kế đồ họa</h3>
-          <p>Thiết kế đồ họa là cụm từ để chỉ một chuyên ngành thuộc về mỹ thuật. Trong đó danh từ "đồ họa" để chỉ những bản vẽ được hiển thị trên một mặt phẳng, và động từ "thiết kế" bao hàm ý nghĩa kiến thiết, sáng tạo.</p>
-        </div>
-      </div>
-    </section>
+/* Header **/
+header {
+    background: #35424a;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #e8491d 4px solid;
+}
 
-    <footer>
-      <p>Anh Kiet Web Deisgn, Copyright &copy; 2022</p>
-    </footer>
-  </body>
-</html>
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s;
+    border-radius: 4px;
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+}
+
+header a:hover {
+    background: #e8491d;
+    color: #fff;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 300px;
+    background: url('img/lap-trinh-web.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#showcase h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 1.3rem;
+}
+
+/* Footer */
+footer {
+    background: #35424a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: #e8491d 4px solid;
+    font-size: 1rem;
+}
+
