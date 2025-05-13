@@ -1,13 +1,12 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    background: #f5f7fa;
+    color: #2c3e50;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-/* Global */
 .container {
     width: 80%;
     margin: auto;
@@ -20,12 +19,12 @@ ul {
     margin: 0;
 }
 
-/* Header **/
+/* Header */
 header {
-    background: #35424a;
+    background: #3a3f58;
     color: #fff;
     padding: 20px 0;
-    border-bottom: #e8491d 4px solid;
+    border-bottom: #a29bfe 4px solid;
 }
 
 header a {
@@ -58,41 +57,21 @@ header nav {
 
 header .highlight,
 header .current a {
-    color: #e8491d;
+    color: #a29bfe;
 }
 
 header a:hover {
-    background: #e8491d;
+    background: #0984e3;
     color: #fff;
-}
-
-/* lap-trinh-web */
-#lap-trinh-web {
-    min-height: 300px;
-    background: url('img/lap-trinh-web.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding-top: 80px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-#lap-trinh-web h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-#lap-trinh-web p {
-    font-size: 1.3rem;
 }
 
 /* Footer */
 footer {
-    background: #35424a;
+    background: #3a3f58;
     color: #fff;
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
-    border-top: #e8491d 4px solid;
+    border-top: #a29bfe 4px solid;
     font-size: 1rem;
 }
