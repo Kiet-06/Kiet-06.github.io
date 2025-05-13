@@ -1,106 +1,77 @@
-/* ==== Reset & Base ==== */
-* {
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    color: #2c3e50;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f9f9f9;
-    color: #1a1a1a;
-    font-size: 16px;
-    line-height: 1.6;
-    transition: all 0.3s ease;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* ==== Container ==== */
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-/* ==== Header ==== */
-header {
-    background-color: #ffffff;
-    border-bottom: 2px solid #e0e0e0;
-    padding: 1.5rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    font-size: 2rem;
-    font-weight: 800;
-    color: #0077ff;
-}
-
-nav ul {
-    display: flex;
-    gap: 1rem;
+ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-nav a {
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    transition: background 0.3s;
+/* Header */
+header {
+    background: #3a3f58;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #a29bfe 4px solid;
 }
 
-nav a:hover {
-    background-color: #0077ff;
-    color: white;
-}
-
-/* ==== Footer ==== */
-footer {
-    background-color: #ffffff;
-    border-top: 2px solid #e0e0e0;
-    text-align: center;
-    padding: 2rem 1rem;
-    font-size: 0.9rem;
-    color: #666;
-    margin-top: 3rem;
-}
-
-/* ==== Button Utility ==== */
-.btn {
-    display: inline-block;
-    background-color: #0077ff;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 8px;
+header a {
+    color: #fff;
+    text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
     transition: background 0.3s;
+    border-radius: 4px;
 }
 
-.btn:hover {
-    background-color: #005fcb;
+header li {
+    display: inline;
+    margin-left: 20px;
 }
 
-/* ==== Responsive ==== */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
+header #branding {
+    float: left;
+}
 
-    header .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+header #branding h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header .highlight,
+header .current a {
+    color: #a29bfe;
+}
+
+header a:hover {
+    background: #0984e3;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: #3a3f58;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: #a29bfe 4px solid;
+    font-size: 1rem;
 }
