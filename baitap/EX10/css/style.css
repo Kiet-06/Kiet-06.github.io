@@ -1,0 +1,221 @@
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Thiết lập font chữ và màu nền chung */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Container chính */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.dark{
+  padding:15px;
+  background:#333;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: 3px solid #e8491d;
+}
+
+/* Branding (Logo) */
+#branding {
+  float: left;
+}
+
+#branding h1 {
+  font-size: 2em;
+}
+
+#branding .highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/* Menu điều hướng */
+nav {
+  float: right;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover,
+nav ul li.current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background: url('../img/hinhnen.jpg') no-repeat center center/cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#showcase h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Newsletter */
+#newsletter {
+  padding: 15px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+#newsletter h1 {
+  float: left;
+  margin-top: 15px;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+#newsletter .button_1 {
+  padding: 10px 20px;
+  background: #e8491d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#newsletter .button_1:hover {
+  background: #cc3d14;
+}
+
+/* Boxes (Món ăn) */
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  margin: 1.66%;
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#boxes .box:hover {
+  transform: translateY(-5px);
+}
+
+#boxes .box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#boxes .box h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+#boxes .box p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  #newsletter h1,
+  #newsletter form {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    font-size: 2em;
+  }
+
+  #boxes .box {
+    float: none;
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  #newsletter form {
+    margin-top: 10px;
+  }
+
+  #newsletter input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
