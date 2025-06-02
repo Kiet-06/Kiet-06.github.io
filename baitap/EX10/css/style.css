@@ -7,10 +7,12 @@
 
 /* Thiết lập font chữ và màu nền chung */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f4f4f4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #ffffff;
+    color: #35424a;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
 }
 
 /* Container chính */
@@ -21,7 +23,7 @@ body {
 }
 .dark{
   padding:15px;
-  background:#333;
+  background:#35424a;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -29,11 +31,11 @@ body {
 
 /* Header */
 header {
-  background: #333;
-  color: #fff;
-  padding-top: 20px;
+  background: #3a3f58;
+  color: #ffffff;
+  padding-top: 30px;
   min-height: 70px;
-  border-bottom: 3px solid #e8491d;
+  border-bottom: 4px solid #a29bfe;
 }
 
 /* Branding (Logo) */
@@ -46,7 +48,7 @@ header {
 }
 
 #branding .highlight {
-  color: #e8491d;
+  color: #a29bfe;
   font-weight: bold;
 }
 
@@ -73,14 +75,14 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li.current a {
-  color: #e8491d;
+  color: #a29bfe;
   font-weight: bold;
 }
 
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background: url('../img/hinhnen.jpg') no-repeat center center/cover;
+  background: url('../img/anh-nen.jpg') no-repeat center center/cover;
   text-align: center;
   color: #ffffff;
   display: flex;
@@ -102,7 +104,7 @@ nav ul li.current a {
 /* Newsletter */
 #newsletter {
   padding: 15px;
-  background: #333;
+  background: #35424a;
   color: #fff;
   text-align: center;
 }
@@ -114,7 +116,7 @@ nav ul li.current a {
 
 #newsletter form {
   float: right;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 #newsletter input[type="email"] {
@@ -126,7 +128,7 @@ nav ul li.current a {
 
 #newsletter .button_1 {
   padding: 10px 20px;
-  background: #e8491d;
+  background: #a29bfe;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -134,7 +136,7 @@ nav ul li.current a {
 }
 
 #newsletter .button_1:hover {
-  background: #cc3d14;
+  background: #30889e;
 }
 
 /* Boxes (Món ăn) */
@@ -178,7 +180,7 @@ nav ul li.current a {
 
 /* Footer */
 footer {
-  background: #333;
+  background: #3a3f58;
   color: #fff;
   text-align: center;
   padding: 20px;
