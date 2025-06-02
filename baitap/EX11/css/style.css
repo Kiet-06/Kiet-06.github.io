@@ -67,7 +67,7 @@ header nav .active {
 }
 
 #showcase {
-  background: linear-gradient(rgba(159, 122, 234, 0.8), rgba(128, 90, 213, 0.8)), url('../img/showcase.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(159, 122, 234, 0.8), rgba(128, 90, 213, 0.8)), url('../img/anh-nen.jpg') center/cover no-repeat;
   text-align: center;
   color: white;
   padding: 80px 20px;
