@@ -143,9 +143,94 @@ footer {
 }
 
 #boxes .box img {
-  width: 80px;          /* hoặc 100px tùy thiết kế */
-  height: 80px;         /* giữ tỷ lệ vuông */
-  object-fit: cover;    /* cắt ảnh vừa khít khung */
-  border-radius: 12px;  /* bo góc nhẹ cho đẹp */
-  margin-bottom: 15px;  /* tạo khoảng cách với nội dung dưới */
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  header h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #showcase {
+    padding: 60px 15px;
+  }
+
+  #showcase h1 {
+    font-size: 28px;
+  }
+
+  #newsletter form {
+    flex-direction: column;
+  }
+
+  #newsletter input[type="email"] {
+    width: 100%;
+  }
+
+  .awards-interests {
+    flex-direction: column;
+  }
+
+  .skills-section .skill-bar span {
+    height: 10px;
+  }
+
+  .experience-item h4 {
+    font-size: 14px;
+  }
+
+  .experience-item span {
+    font-size: 13px;
+  }
+
+  .button_1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  #boxes {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  #boxes .box {
+    padding: 20px;
+  }
+
+  .skills-section {
+    padding: 0 10px;
+  }
+
+  .skill-bar {
+    height: 10px;
+  }
 }
