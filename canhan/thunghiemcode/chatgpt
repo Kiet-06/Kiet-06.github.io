@@ -3,60 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CV Cá Nhân - Tên Bạn</title>
+  <title>CV Cá Nhân</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <div class="profile">
       <img src="avatar.jpg" alt="Ảnh đại diện">
-      <h1>Tên Của Bạn</h1>
-      <p>Vị trí công việc mong muốn</p>
+      <h1>Nguyễn Văn A</h1>
+      <p>Lập trình viên Web</p>
     </div>
 
     <div class="contact">
-      <p><strong>Email:</strong> ban@example.com</p>
+      <p><strong>Email:</strong> nguyenvana@gmail.com</p>
       <p><strong>Điện thoại:</strong> 0123 456 789</p>
       <p><strong>Địa chỉ:</strong> Hà Nội, Việt Nam</p>
     </div>
 
     <div class="section">
       <h2>Giới thiệu bản thân</h2>
-      <p>Tôi là một lập trình viên đam mê công nghệ, yêu thích phát triển web và học hỏi những điều mới.</p>
+      <p>Tôi là một lập trình viên web đam mê công nghệ, thích xây dựng giao diện đẹp và tối ưu hiệu suất người dùng.</p>
     </div>
 
     <div class="section">
       <h2>Kinh nghiệm làm việc</h2>
       <ul>
         <li>
-          <strong>Công ty ABC</strong> - Lập trình viên Frontend (2022 - nay)
-          <br>Tham gia phát triển giao diện website thương mại điện tử.
-        </li>
-        <li>
-          <strong>Công ty XYZ</strong> - Thực tập sinh (2021)
-          <br>Hỗ trợ viết HTML/CSS và chỉnh sửa giao diện.
+          <strong>Công ty ABC</strong> – Frontend Developer (2022–nay)<br />
+          Thiết kế và lập trình giao diện web sử dụng HTML, CSS, JavaScript.
         </li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Học vấn</h2>
-      <p>Đại học Công nghệ Thông tin - ĐH Quốc gia (2018 - 2022)</p>
+      <p>Đại học Công nghệ – CNTT (2018–2022)</p>
     </div>
 
     <div class="section">
       <h2>Kỹ năng</h2>
       <ul class="skills">
-        <li>HTML/CSS</li>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>JavaScript</li>
         <li>ReactJS</li>
-        <li>Git/GitHub</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Liên kết</h2>
-      <p><a href="https://github.com/tenban" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/tenban" target="_blank">LinkedIn</a></p>
+      <p>
+        <a href="https://github.com/nguyenvana" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/nguyenvana" target="_blank">LinkedIn</a>
+      </p>
     </div>
   </div>
 </body>
