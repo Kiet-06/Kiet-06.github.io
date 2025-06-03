@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: 30px auto;
   background: white;
   padding: 30px;
@@ -24,7 +24,7 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #007bff;
+  border: 3px solid #007bff;
 }
 
 h1 {
